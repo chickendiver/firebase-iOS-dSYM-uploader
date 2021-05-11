@@ -16,13 +16,12 @@ Will install all prerequisites. Currently uses the third-party library `tqdm` to
 
 Options are as follows:
 
--i OR --idir= {PATH TO BASE XCODE ARCHIVES DIRECTORY}
+-i OR --idir= {PATH TO BASE XCODE ARCHIVES DIRECTORY}. E.g.: `/Users/{USER}/Library/Developer/Xcode/Archives/`
+
+-o OR --ofile= {PATH TO SCRIPT OUTPUT SAVE FILE}. E.g.: `./last_run_archive_directory_list.json`
 			
 
--o OR --ofile= {PATH TO SCRIPT OUTPUT SAVE FILE}
+-p OR --p_list_dir= {PATH TO FIREBASE INFO_P_LIST FILE}. E.g.: `/Users/{USER}/{PROJECT_DIR}/GoogleService-Info.plist`
 			
 
--p OR --p_list_dir= {PATH TO FIREBASE INFO_P_LIST FILE}
-			
-
--s OR --script_path= {PATH TO FIREBASE UPLOAD-SYMBOLS FILE}
+-s OR --script_path= {PATH TO FIREBASE UPLOAD-SYMBOLS FILE}. E.g.: `/Users/{USER}/{PROJECT_DIR}/Pods/FirebaseCrashlytics/upload-symbols`
