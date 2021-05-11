@@ -7,7 +7,7 @@ The script will crawl through your specified Xcode archives directory and pull a
 To use this script correctly, you'll want to download the debug symbols of every build since the last run. To do this, open the .xcarchive file in Xcode and select "Download Debug Symbols" on the right-hand side, or download your dSYMs from your Apple Store Connect > My Apps > {Your Application} > TestFlight > {Your Build} > Build Metadata > Download dSYM.
 
 # Installation:
-`pip install -r requirements.txt`
+`pip3 install -r requirements.txt`
 
 Will install all prerequisites. Currently uses the third-party library `tqdm` to generate a progress bar.
 
