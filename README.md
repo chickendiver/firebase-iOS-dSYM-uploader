@@ -6,7 +6,12 @@ The script will crawl through your specified Xcode archives directory and pull a
 
 To use this script correctly, you'll want to download the debug symbols of every build since the last run. To do this, open the .xcarchive file in Xcode and select "Download Debug Symbols" on the right-hand side, or download your dSYMs from your Apple Store Connect > My Apps > {Your Application} > TestFlight > {Your Build} > Build Metadata > Download dSYM.
 
-Usage: 
+# Installation:
+`pip install -r requirements.txt`
+
+Will install all prerequisites. Currently uses the third-party library `tqdm` to generate a progress bar.
+
+# Usage: 
 `python3 firebase-dSYM-uploader.py -i {PATH TO BASE XCODE ARCHIVES DIRECTORY} -o {PATH TO SCRIPT OUTPUT SAVE FILE} -p {PATH TO FIREBASE INFO_P_LIST FILE} -s {PATH TO FIREBASE UPLOAD-SYMBOLS FILE}`
 
 Options are as follows:
