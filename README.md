@@ -35,4 +35,5 @@ Options are as follows:
 -s OR --script_path= {PATH TO FIREBASE UPLOAD-SYMBOLS FILE}. E.g.: `/Users/{USER}/{PROJECT_DIR}/Pods/FirebaseCrashlytics/upload-symbols`
 
 
+
 Made with love in Edmonton, Alberta. Inspired by this Github thread: https://github.com/firebase/firebase-ios-sdk/issues/5569
